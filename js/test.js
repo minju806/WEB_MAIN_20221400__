@@ -20,13 +20,18 @@ console.log(d);
 const e = '상수1 접근';
 console.log(e); // 상수1 접근
 
-const search_message = () => {
-    const c = '검색을 수행합니다';
-    alert(c);
-};
+//const search_message = () => {
+    //const c = '검색을 수행합니다';
+    //alert(c);
+//};
     
 document.getElementById("search_btn").addEventListener('click', search_message);
     
 function search_message(){
-        alert("검색을 수행합니다!");
+    alert("검색을 수행합니다!");
+}
+
+function init_logined() {
+    console.log("init_logined 함수가 호출되었습니다.");
+    // 필요한 초기화 작업을 여기에 추가합니다.
 }
